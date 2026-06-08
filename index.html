@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my portfolio</title>
+  <style>
+  body{
+    margin :0;
+    padding :0;
+    box-sizing: border-box;
+   background-color:Aliceblue;
+    font-family: Times New Roman;
+    display:grid;
+     }
+  .he{
+grid-area: he;
+    padding-top:20px;
+    background-color:burlywood;
+    text-align: center;
+    color: crimson;
+    
+    
+  }
+  img{
+    border:15px solid crimson;
+    border-radius:200px;
+    text-align: center;
+    
+  }
+  h1{
+    text-align:center;
+    text-transform: uppercase;
+    color: crimson;
+    text-shadow:2px 2px 2px crimson;
+  }
+  .na{
+    grid-area:na;
+    background-color:darkseagreen;
+    padding:20px;
+    font-size:20px;
+    font-weight: bold;
+    word-spacing:10px;
+    opacity:1;
+    
+    }
+    section{
+      background-color:#f1f8e9;
+      border:8px solid green;
+      border-radius:30px;
+    }
+      .container{
+      display: grid;
+      grid-template-areas:
+      'he he'
+      'na na'
+      'ab ed'
+      'ab sk'
+      'la con'
+      'fo fo';
+      grid-gap:5px;
+      height:100vh;
+      }
+    section>h2{
+      color:coral;
+      text-align: center;
+      
+      
+    }
+    
+    #ab{
+      grid-area:ab;
+      border-radius:25px;
+      top:8px;
+      left:16px;
+      
+    }
+    #ed{
+      grid-area:ed;
+    }
+    #sk{
+      grid-area:sk;
+    }
+    #la{
+      grid-area:la;
+    }
+    #con{
+      grid-area:con;
+    }
+    #fo{
+      grid-area:fo;
+      text-align:center;
+      background-color:burlywood;
+    }
+    .lin{
+      font-weight:bold;
+      color:deeppink;
+    }
+    
+
+    
+  </style>
+</head>
+
+<body>
+      <div class="container">
+       <section class="he">
+     <header>
+       <h1>Welcome to my portfolio &#128516</h1>
+       <img src="fasi.jpg" alt="fasika.com" width="200px" height="250px">
+       <h2>Fasika Worku</h2>
+       <h4>web designer and developer</h4>
+     </header>
+     </section>
+     <section class="na">
+       <div class="nav">
+         <nav>
+           <a href="#ab">About me</a>
+           <a href="#ed">Education</a>
+           <a href="#sk">Skills</a>
+           <a href="#la">Language</a>
+           <a href="#con">Contact me</a>
+         </nav>
+         
+       </div>
+     </section>
+     <section id="ab">
+       <h2>About me</h2>
+       <p>I am grade 11<sup>th</sup> Natural student at Lebu secondary school. I'm also learning web design and development in this school. I want to be a pilot and I want to study software engineering when I join university.</p>
+       
+     </section>
+     <section id="ed">
+       <h2>Education </h2>
+       <p>I learned Elementary school at Hana primary school.I am learning high school at Lebu secondary school.</p>
+     </section>
+     <section id="sk">
+       <h2>Skills</h2>
+       I have skill on markup language. such as:
+       <ul>
+        <li>HTML </li>
+        <li>CSS</li>
+        </ul>
+     </section>
+     <section id="la">
+       <h2>Language </h2>
+       <ul>
+        <li>Amharic</li>
+        <li>Afaan Oromoo</li>
+        <li>English</li>
+        </ul>
+        </section>
+        <section id="con">
+          <h2>Contact me</h2>
+        <p class="lin">Email: <a href="mailto:fworku235@gmail.com" target="_blank">fworku235@gmail.com</a>
+         <p class="lin">Instagram:<a href="https://www.instagram.com/Fasika5659" target="_blank">Fasika5659</a>
+          <p class="lin">Phone:<a href="tel:+251986033671" target="_blank">+251986033671</a>
+        </section>
+        <section id="fo">
+          <p>&copy; Portfolio | creacted by Fasika Worku| 2018 E.C</p>
+        </section>
+        
+        </div>
+  
+</body>
+
+</html>
